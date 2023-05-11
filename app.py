@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def awesome_function():
-    return 'Learning DevOps is cool!'
+    return 'Learning DevOps is super cool!'
