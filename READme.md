@@ -26,3 +26,35 @@
 1. You might a encounter a few errors most of these will most likely be due to the fact that you misspelled something. So make sure everything is exactly the same just change where it says "rangel9697" for the dockerhub id to your own personal dockerhub id and make sure to have your dockerhub credentials set in place. You can do that by going "Manage Jenkins/Manage Credentials" there you can create your own dockerhub credentials with your username and password. That way you can pass those credentials as a environment variable for the project.
 
 2. The second one might be that you didn't set something correctly. For this I would recommend going to your Jenkins "console output" after you build your job and it should give you a good understanding of what went wrong.
+
+## How I set up my build image pipeline
+
+![Screenshot 2023-05-12 163620](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/f0c1fa82-f4a7-4033-b205-7d7ab2e08760)
+
+
+![Screenshot 2023-05-12 163648](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/a12bf0a2-0287-4aef-844e-306804fe5214)
+
+
+## How I set up my manifest pipeline
+
+![Screenshot 2023-05-12 164158](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/b6d45c53-32d2-4ff0-a0ec-c24630d48634)
+
+
+![Screenshot 2023-05-12 164216](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/d0ef97f6-e570-4740-bc88-9c6afd7de0f5)
+
+
+## How did new build images look like in Dockerhub?
+
+![Screenshot 2023-05-12 164408](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/b02b0590-3085-4228-99d7-fa7179f2f055)
+
+
+## How did the ArgoCD server environment look like?
+
+![Screenshot 2023-05-11 165502](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/0abaed2c-b3a2-485e-8efd-c9e7561b0bc6)
+
+
+1. In this next picture you can see that the "tag:10" parameter was passed in the build which was the latest build number at the time.
+
+![Screenshot 2023-05-12 155148](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/662ee412-d4c5-483d-bf6f-120e18bc24a8)
+
+
