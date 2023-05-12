@@ -20,3 +20,9 @@
 2. I will not go in extensive detail on how install most of these tools. You can always search how to install them and follow the website's steps. However, because I had a lot of diffficulty trying to install ArgoCD using the website I will post the following.
 
 3. If you go to https://argo-cd.readthedocs.io/en/stable/getting_started/ on the first step. The link they have you download doesn't contain the argocd-server package. Instead follow this link for the first step: https://github.com/argoproj/argo-cd/releases/latest and the go back to the main website and follow the rest of the steps I recommend you use port forwarding to access ArgoCD. Besides that you should be ready to go!
+
+## Helpful Hints for Troubleshooting
+
+1. You might a encounter a few errors most of these will most likely be due to the fact that you misspelled something. So make sure everything is exactly the same just change where it says "rangel9697" for the dockerhub id to your own personal dockerhub id and make sure to have your dockerhub credentials set in place. You can do that by going "Manage Jenkins/Manage Credentials" there you can create your own dockerhub credentials with your username and password. That way you can pass those credentials as a environment variable for the project.
+
+2. The second one might be that you didn't set something correctly. For this I would recommend going to your Jenkins "console output" after you build your job and it should give you a good understanding of what went wrong.
