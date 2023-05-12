@@ -26,6 +26,3 @@
 1. You might a encounter a few errors most of these will most likely be due to the fact that you misspelled something. So make sure everything is exactly the same just change where it says "rangel9697" for the dockerhub id to your own personal dockerhub id and make sure to have your dockerhub credentials set in place. You can do that by going "Manage Jenkins/Manage Credentials" there you can create your own dockerhub credentials with your username and password. That way you can pass those credentials as a environment variable for the project.
 
 2. The second one might be that you didn't set something correctly. For this I would recommend going to your Jenkins "console output" after you build your job and it should give you a good understanding of what went wrong.
-
-
-
