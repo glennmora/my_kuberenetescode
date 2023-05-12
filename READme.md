@@ -58,3 +58,9 @@
 ![Screenshot 2023-05-12 155148](https://github.com/saha-rajdeep/kubernetesmanifest/assets/108555140/662ee412-d4c5-483d-bf6f-120e18bc24a8)
 
 
+## Sources
+https://github.com/saha-rajdeep/kubernetescode 
+https://github.com/saha-rajdeep/kubernetesmanifest
+https://argo-cd.readthedocs.io/en/stable/getting_started/
+https://github.com/argoproj/argo-cd/releases/tag/v2.7.2
+
